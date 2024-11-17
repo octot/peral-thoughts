@@ -1,0 +1,12 @@
+.date-input-main {
+  transition: background-color 0.3s ease; /* Smooth transition */
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0; /* Light gray background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal, Vertical, Blur, Spread, Color */
+}

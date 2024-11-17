@@ -1,0 +1,46 @@
+.date-picker-container {
+  width: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column;
+  /* border: 2px solid black; */
+  margin-left: 25%;
+  margin-top: 18%;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-grid div:hover {
+  background-color: #007bff;
+}
+
+.date-cell {
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.date-cell.selected {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.date-input,
+.month-navigation,
+.week-day-header {
+  margin-bottom: 8px;
+}
+
+.week-day-header span {
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+}
+.calendar-main {
+  border: 1px solid rgb(6, 91, 228);
+}
